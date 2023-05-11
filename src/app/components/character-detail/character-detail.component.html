@@ -1,0 +1,26 @@
+<div id="grid">
+  <div>
+    <img src="{{characterDetails.image}}" />
+  </div>
+  <div>
+    <div>
+      <div class="name">
+        {{characterDetails.name}}
+      </div>
+      <div class="status-species">
+        {{characterDetails.status}} - {{characterDetails.species}}
+      </div>
+    </div>
+    <br />
+    <div>
+      <div class="locations">
+        Location: {{characterDetails.location.name}}
+      </div>
+      <br />
+      <br />
+      <div class="locations">
+        Origin:{{characterDetails.origin.name}}
+      </div>
+    </div>
+  </div>
+</div>

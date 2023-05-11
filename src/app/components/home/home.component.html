@@ -1,0 +1,12 @@
+<div id="grid">
+  <div *ngFor="let items of charactersAPI; let i = index">
+    <div (click)="openCharacterDetail(items,i)">
+      <div>
+        <img src="{{items.image}}" />
+      </div>
+      {{items.name}}
+      <br />
+      {{items.status}} - {{items.species}}
+    </div>
+  </div>
+</div>
