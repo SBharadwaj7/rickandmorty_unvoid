@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Run Angular Project
+
+To run this project you must have Node and npm in your system. 
+You can use the Node Version Manager to install it, or you can use the official package manager of your OS.
+You also have the option to install Node from its website.
+
+After checking if you have Node installed in your system, you can install Angular in your device by running following command in the command prompt:
+
+npm install @angular/cli
+
+After the complete setup is done, go to the repository and clone the Angular project.
+
+After the clone is successfull, Please install the node modules by the command: npm install
+
+Now the packages are installed, please run : 'ng serve' command to run the project.
